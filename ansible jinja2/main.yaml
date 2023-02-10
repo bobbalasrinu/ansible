@@ -5,4 +5,4 @@
     - name: dynamic values
       ansible.builtin.template:
         src: info.txt.j2
-        dest: etc/info.txt
+        dest: /tmp/info.txt
